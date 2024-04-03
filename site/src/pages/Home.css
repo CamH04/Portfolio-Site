@@ -1,0 +1,101 @@
+*{
+    font-family:Helvetica,Arial,sans-serif;
+}
+/* Buttons */
+.Buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 22%;
+  }
+  button{
+    width: 220px;
+    height: 68px;
+    border-radius: 25px;
+    margin: 40px;
+    cursor: pointer;
+    border: none;
+  }
+  .Button-Text{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .LinkedIn{
+    background: rgba(229, 46, 253, 0.200);
+  }
+  .Cv{
+    background: rgba(241, 22, 95, 0.200);
+  }
+  .Github{
+    background: rgba(29, 29, 29, 0.200);
+  }
+
+span{
+  color: rgb(0, 0, 0); 
+}
+.LinkedIn span{
+    background: rgba(255, 255, 255, 0);
+}
+.Cv span{
+    background: rgba(255, 255, 255, 0);
+}
+.Github span{
+    background: rgba(255, 255, 255, 0);
+}
+#ui {
+  border: 10px solid #ffffff77;
+  border-radius: 25px;
+  background: #ffffff69;
+  animation: windowopen 1s ease-out;
+  transform-origin: top left;
+  transform: 0%;
+}
+
+.GOTOTHERIGHTIBEG{
+  margin-left: 50%;
+}
+
+.gap{
+  margin-bottom: 12%;
+}
+.title-text{
+  display: flex;
+  justify-content: center;
+  padding-right: 9%;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  /* text*/
+  .text-to-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+  }
+  .name-text{
+    padding-left: 0%;
+  }
+  .name-text2{
+    padding-left: 0%;
+  }
+  /* buttons */ 
+  .Buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* projects*/
+  .project{
+    margin-bottom: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .GOTOTHERIGHTIBEG{
+    margin-left: 0%;
+  }  
+}

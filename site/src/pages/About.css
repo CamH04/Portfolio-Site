@@ -1,0 +1,30 @@
+p, h1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+    line-height: 1.4em;
+}
+ul.contact {
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+ol, ul {
+    list-style: none;
+}
+
+.help{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.gif{
+    margin-left: 20%;
+}

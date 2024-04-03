@@ -1,0 +1,11 @@
+p.big {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+p.light{
+    color: rgba(0, 0, 0, 0.6);
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
