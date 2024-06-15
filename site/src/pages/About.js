@@ -29,19 +29,17 @@ export default function About (){
                 </div>
                 <div class="col-6 col-4-m col-3-s" data-aos="zoom-in-left" data-aos-duration="1200" >
                     <p class="big">
-                    Hi! I'm Cameron, a programmer from Hampshire, who is currently based in Sunderland. I love to create and listen to music in my off time.
-                    </p>
+                    Hi! I'm Cameron, a programmer from Hampshire! I love to create and listen to music in my off time in the rare case I'm not programming.                    </p>
                     <p class="big">
-                    I started programming in senior school and even back then I was programming heavily in my spare time. I learnt more and more, leading to where I am now. I love to experiment with code and build a large variety of projects using any tech I can get my hands on.
-                    </p>
+                    I love experimenting with code trying to make (and break) software of all types from Websites to Operating Systems                    </p>
                     <p class="big">
-                    I love creating websites which is intuitive to the user, creating a nice environment for them to use
-                    </p>
+                    I love creating websites which are intuitive to the user, creating a nice environment for them to explore                    </p>
                     <p class="big">
-                    I'm experienced in C# and the 3 expected languages (HTML/CSS/JavaScript) with React and Blazor being my Web Frameworks of choice
-                    </p>
+                    I'm experienced in C#, C++ and the 3 expected web dev languages (HTML/CSS/JavaScript) with React and Blazor being my Web Frameworks of choice                    </p>
                     <p class="big">
-                    Tinkering around with software is fun, but I also love to experiment with hardware and electronics using Ardunio's and Esp's
+                    As well as software, i love tinkering with hardware such as Microcontrollers and even fixing broken laptops                    </p>
+                    <p class="big">
+                    My love of both hardware and software would eventually lead me down the path of OsDev as well as my interest in vintage computers such as early IBM and Acorn models
                     </p>
                 </div>
                 <div class="col-12">
