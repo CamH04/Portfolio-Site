@@ -55,12 +55,12 @@ export default function Home(){
 
         <div data-aos="fade-up" data-aos-duration="2000">
             <div class="project grid center gap">  
-                <a href="" class="col-8 col-6-m col-3-s project-image">
+                <a href="https://www.linkedin.com/posts/chris-tofts-30b421142_uospolicehack-activity-7178755579195142146-ykZV?trk=public_profile" class="col-8 col-6-m col-3-s project-image">
                     <img id="ui" src={EDI} width="480" height="270"  alt="help" data-aos="zoom-in-right" data-aos-duration="1000"></img>
                 </a>
                 <div class="col-3 col-6-m col-3-s center ">
                 <h2 data-aos="zoom-in-left" data-aos-duration="1000">
-                    <a href="">EDI App for The Durham Constabulary, developed alongside ANS and Microsoft using Microsoft PowerApps</a>
+                    <a href="https://www.linkedin.com/posts/chris-tofts-30b421142_uospolicehack-activity-7178755579195142146-ykZV?trk=public_profile">EDI App for The Durham Constabulary, developed alongside ANS and Microsoft using Microsoft PowerApps</a>
                 </h2>
                 </div>
             </div>
