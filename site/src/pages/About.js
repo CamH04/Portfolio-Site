@@ -5,6 +5,9 @@ import GitHubLogo from './img/GitHubLogo.png';
 import LinkInLogo from './img/LinkInLogo.png';
 import ElecGif from './img/gif.webp'
 
+
+import Photography from './Photography.js';
+
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
