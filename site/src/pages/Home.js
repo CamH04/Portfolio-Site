@@ -1,7 +1,7 @@
 import './Home.css';
 import Gif1 from './img/DeGif.gif';
 import Gif2 from './img/FiddlesticksGif.gif';
-import CV from './img/CV.docx'
+import CV from './img/cv.rtf'
 import AlbaOSLOGO from './img/albaoslogo.png'
 import EDI from './img/EDI.gif'
 
