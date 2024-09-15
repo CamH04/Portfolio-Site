@@ -8,8 +8,14 @@ export default function Photography(){
         Aos.init();
       });
 
+
+
     return(
-        <p>test</p>
+        <section>
+            <div>
+                <h1>its working</h1>
+            </div>
+        </section>
     );
 }
 

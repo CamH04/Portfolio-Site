@@ -1,13 +1,8 @@
 import './About.css';
-import {Route, Routes} from "react-router-dom"
 import { Link } from 'react-router-dom';
 import GitHubLogo from './img/GitHubLogo.png';
 import LinkInLogo from './img/LinkInLogo.png';
 import ElecGif from './img/gif.webp'
-
-
-import Photography from './Photography.js';
-
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -25,9 +20,10 @@ export default function About (){
                     <h1 data-aos="fade-up" data-aos-duration="1500" >Cameron Haynes -<span class="light">Dedicated Coder and Music Lover</span></h1> 
                     <ul class="contact" data-aos="zoom-in-up" data-aos-duration="1000">
                     <li data-aos="zoom-in-up" data-aos-duration="1000" ><Link to="/contact" class="button">Get in touch</Link></li>
-                    <li data-aos="zoom-in-up" data-aos-duration="1000" ><a href="https://github.com/CamH04" target="_blank" class="social"><img src={GitHubLogo}alt="GitHub" width="30px" height="30px"></img></a></li>
-                    <li data-aos="zoom-in-up" data-aos-duration="1000" ><a href="https://www.linkedin.com/in/cameron-haynes-778056233/" target="_blank" class="social"><img src={LinkInLogo} alt="LinkedIn" width="30px" height="30px"></img></a></li>
-                    <img data-aos="zoom-in-up" data-aos-duration="1000" class="help gif" src={ElecGif} width="150px" height="150px"></img>
+                    <li data-aos="zoom-in-up" data-aos-duration="1000" ><Link to="/photography" class="button">Photos</Link></li>   
+                    <li data-aos="zoom-in-up" data-aos-duration="1000" ><a href="https://github.com/CamH04" target="_blank" rel="noreferrer" class="social"><img src={GitHubLogo}alt="GitHub" width="30px" height="30px"></img></a></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1000" ><a href="https://www.linkedin.com/in/cameron-haynes-778056233/" target="_blank" rel="noreferrer" class="social"><img src={LinkInLogo} alt="LinkedIn" width="30px" height="30px"></img></a></li>               
+                    <img data-aos="zoom-in-up" data-aos-duration="1000" class="help gif" src={ElecGif} width="150px" height="150px" alt="spnningGif"></img>
                     </ul>
                 </div>
                 <div class="col-6 col-4-m col-3-s" data-aos="zoom-in-left" data-aos-duration="1200" >
