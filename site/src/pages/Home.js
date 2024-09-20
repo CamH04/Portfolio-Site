@@ -4,12 +4,16 @@ import Gif2 from './img/FiddlesticksGif.gif';
 import CV from './img/cv.rtf'
 import AlbaOSLOGO from './img/albaoslogo.png'
 import EDI from './img/EDI.gif'
+import apic from './img/albasoftware.png'
 
 import React, { useEffect } from 'react';
+import { useRef } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 export default function Home(){
+    const projref = useRef();
+
     useEffect(() => {
         Aos.init();
       });
@@ -22,6 +26,11 @@ export default function Home(){
             <div class="text-to-center" data-aos="fade-up" data-aos-duration="1500">
                 <p class="name-text">Cameron Haynes - Programmer</p>
                 <h1 class="name-text2">I like to code things </h1>
+                <p class="text-to-center"><p onClick={()=>{
+                    projref.current?.scrollIntoView({
+                        behavior:'smooth'
+                    });
+                }}>Projects</p></p>
             </div>
             </div>
         </div>
@@ -40,7 +49,7 @@ export default function Home(){
         </section>
 
 
-        <section class="projects">
+        <section ref={projref} id="project-section" class="projects">
         <h1 class="name-text2 title-text" data-aos="fade-up" data-aos-duration="1500"> Projects</h1>
         <div class="project grid center gap">  
                 <div class="col-3 col-6-m col-3-s center">
@@ -69,11 +78,11 @@ export default function Home(){
             <div class="project grid center gap">  
                 <div class="col-3 col-6-m col-3-s center">
                 <h2 data-aos="zoom-in-right" data-aos-duration="1000" >
-                    <a href="https://cool-seahorse-c97407.netlify.app">A Website for an artist called "Fiddlesticks_" for his music project</a>
+                    <a href="https://albasoftware.netlify.app/">AlbaSoftware: The Hub For My Personal Software Experiments</a>
                 </h2>
                 </div>
-                <a href="https://cool-seahorse-c97407.netlify.app" class="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <img id="ui" src={Gif2} width="480" height="270" alt="help"></img>
+                <a href="https://albasoftware.netlify.app/" class="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img id="ui" src={apic} width="480" height="270" alt="help"></img>
                 </a>
             </div>
         </div>
@@ -90,6 +99,16 @@ export default function Home(){
                 </div>
             </div>
         </div>
+        <div class="project grid center gap">  
+                <div class="col-3 col-6-m col-3-s center">
+                <h2 data-aos="zoom-in-right" data-aos-duration="1000" >
+                    <a href="https://cool-seahorse-c97407.netlify.app">A Website for an artist called "Fiddlesticks_" for his music project</a>
+                </h2>
+                </div>
+                <a href="https://cool-seahorse-c97407.netlify.app" class="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img id="ui" src={Gif2} width="480" height="270" alt="help"></img>
+                </a>
+            </div>
 
         </section>
     </section>

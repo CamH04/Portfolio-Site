@@ -19,6 +19,11 @@ export default function Photography(){
             <div class="header">
                 <h1>Some Photos I've Taken</h1>
                 <p>"volare sicut tyto noctua , to fly like a nightingale"</p>
+
+
+
+                <p>"PLACEHOLDERS FOR NOW WHILE PAGE IS UNDER CONSTRUCTION!, THESE ARE NOT MY PHOTOS"</p>
+
             </div>
             <div class="row" data-aos="fade-up" data-aos-duration="2000">
                 <div class="column" data-aos="zoom-in-right" data-aos-duration="2000">
@@ -27,14 +32,14 @@ export default function Photography(){
                     <img src={img3} alt="cphoto"></img>
                 </div> 
                 <div class="column" data-aos="zoom-in" data-aos-duration="2000">
-                    <img src={img1} alt="cphoto"></img>
                     <img src={img2} alt="cphoto"></img>
                     <img src={img3} alt="cphoto"></img>
+                    <img src={img1} alt="cphoto"></img>
                 </div> 
                 <div class="column"data-aos="zoom-in-left" data-aos-duration="2000">
                     <img src={img1} alt="cphoto"></img>
-                    <img src={img2} alt="cphoto"></img>
                     <img src={img3} alt="cphoto"></img>
+                    <img src={img2} alt="cphoto"></img>
                 </div> 
             </div>
         </section>
