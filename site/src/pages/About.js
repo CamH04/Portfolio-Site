@@ -61,14 +61,13 @@ export default function About() {
                     </p>
                     <p className="big">
                         I'm experienced in C#, C++, and the three expected web development languages (HTML/CSS/JavaScript),
-                        with React and Blazor being my frameworks of choice.
+                        with React being my strongest web framework.
                     </p>
                     <p className="big">
                         In addition to software, I love tinkering with hardware such as microcontrollers and even fixing broken laptops.
                     </p>
                     <p className="big">
-                        My passion for both hardware and software eventually led me down the path of OS development (OsDev),
-                        as well as an interest in vintage computers like early IBM and Acorn models.
+                        My passion for both hardware and software eventually led me down the path of OS development (OsDev), and deep into the Fullstack Web Development rabbit hole
                     </p>
                 </div>
                 <div className="col-12"></div>

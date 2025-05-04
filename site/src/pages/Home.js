@@ -5,6 +5,8 @@ import CV from './img/UpdatedCV.pdf';
 import AlbaOSLOGO from './img/albaoslogo.png';
 import EDI from './img/EDI.gif';
 import apic from './img/albasoftware.png';
+import articles from './img/articles.png';
+import NHS from './img/NHS.png';
 
 import React, { useEffect, useRef } from 'react';
 import Aos from 'aos';
@@ -72,12 +74,12 @@ export default function Home() {
 
                 <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
-                        <a href="https://albasoftware-articles.netlify.app/" className="col-8 col-6-m col-3-s project-image">
-                            <img id="ui" src={EDI} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
+                        <a href="https://github.com/CamH04/Enterprise-Project-Group-9" className="col-8 col-6-m col-3-s project-image">
+                            <img id="ui" src={NHS} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
                         </a>
                         <div className="col-3 col-6-m col-3-s center">
                             <h2 data-aos="zoom-in-left" data-aos-duration="1000">
-                                <a href="https://albasoftware-articles.netlify.app/">
+                                <a href="https://github.com/CamH04/Enterprise-Project-Group-9/">
                                     NHS Gateshead X My-Software Mental Health App
                                 </a>
                             </h2>
@@ -101,7 +103,7 @@ export default function Home() {
                 <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://albasoftware-articles.netlify.app/" className="col-8 col-6-m col-3-s project-image">
-                            <img id="ui" src={EDI} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
+                            <img id="ui" src={articles} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
                         </a>
                         <div className="col-3 col-6-m col-3-s center">
                             <h2 data-aos="zoom-in-left" data-aos-duration="1000">
