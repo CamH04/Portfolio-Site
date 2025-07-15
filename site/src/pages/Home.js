@@ -7,6 +7,8 @@ import EDI from './img/EDI.gif';
 import apic from './img/albasoftware.png';
 import articles from './img/articles.png';
 import NHS from './img/NHS.png';
+import NN from './img/nn.png';
+import Cirt1 from './img/Cirt1.png';
 
 import React, { useEffect, useRef } from 'react';
 import Aos from 'aos';
@@ -144,7 +146,41 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="project grid center gap">
+                    <div className="col-3 col-6-m col-3-s center">
+                        <h2 data-aos="zoom-in-right" data-aos-duration="1000">
+                            <a href="https://albasoftware.netlify.app/albaneuralnetwork">
+                                 The Alba 3 Stage Neural Network: From Scratch
+                            </a>
+                        </h2>
+                    </div>
+                    <a href="https://albasoftware.netlify.app/albaneuralnetwork" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <img id="ui" src={NN} width="480" height="270" alt="Fiddlesticks music website" />
+                    </a>
+                </div>
             </section>
+
+
+            <section ref={projref} id="cirt-section" className="cirt">
+                <h1 className="name-text2 title-text" data-aos="fade-up" data-aos-duration="1500">Technical Certifications</h1>
+
+                <div className="project grid center gap">
+                    <div className="col-3 col-6-m col-3-s center">
+                        <h2 data-aos="zoom-in-right" data-aos-duration="1000">
+                            <a href="https://albasoftware.netlify.app/albaneuralnetwork">
+                                 Cisco Academy: Operating Systems Basics.
+                                 A Cirtification around how to use Linux and Windows for sys admin and cybersecurity
+                            </a>
+                        </h2>
+                    </div>
+                    <a href="https://albasoftware.netlify.app/albaneuralnetwork" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <img id="ui" src={Cirt1} width="480" height="270" alt="Fiddlesticks music website" />
+                    </a>
+                </div>
+            </section>
+
+
+
         </section>
     );
 }
