@@ -77,7 +77,7 @@ export default function Home() {
                 <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://github.com/CamH04/Enterprise-Project-Group-9" className="col-8 col-6-m col-3-s project-image">
-                            <img id="ui" src={NHS} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
+                            <img id="ui" src={NHS} width="480" height="270" alt="NHS app" data-aos="zoom-in-right" data-aos-duration="1000" />
                         </a>
                         <div className="col-3 col-6-m col-3-s center">
                             <h2 data-aos="zoom-in-left" data-aos-duration="1000">
@@ -97,7 +97,7 @@ export default function Home() {
                             </h2>
                         </div>
                         <a href="https://albasoftware.netlify.app/" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
-                            <img id="ui" src={EDI} width="480" height="270" alt="AlbaSoftware preview" />
+                            <img id="ui" src={EDI} width="480" height="270" alt="EDI App preview" />
                         </a>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ export default function Home() {
                 <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://albasoftware-articles.netlify.app/" className="col-8 col-6-m col-3-s project-image">
-                            <img id="ui" src={articles} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
+                            <img id="ui" src={articles} width="480" height="270" alt="Alba Articles " data-aos="zoom-in-right" data-aos-duration="1000" />
                         </a>
                         <div className="col-3 col-6-m col-3-s center">
                             <h2 data-aos="zoom-in-left" data-aos-duration="1000">
@@ -134,7 +134,7 @@ export default function Home() {
            <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://albasoftware.netlify.app/" className="col-8 col-6-m col-3-s project-image">
-                            <img id="ui" src={apic} width="480" height="270" alt="EDI project" data-aos="zoom-in-right" data-aos-duration="1000" />
+                            <img id="ui" src={apic} width="480" height="270" alt="Alba Software" data-aos="zoom-in-right" data-aos-duration="1000" />
                         </a>
                         <div className="col-3 col-6-m col-3-s center">
                             <h2 data-aos="zoom-in-left" data-aos-duration="1000">
@@ -155,7 +155,7 @@ export default function Home() {
                         </h2>
                     </div>
                     <a href="https://albasoftware.netlify.app/albaneuralnetwork" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
-                        <img id="ui" src={NN} width="480" height="270" alt="Fiddlesticks music website" />
+                        <img id="ui" src={NN} width="480" height="270" alt="Alba Neural Network" />
                     </a>
                 </div>
             </section>
@@ -167,14 +167,14 @@ export default function Home() {
                 <div className="project grid center gap">
                     <div className="col-3 col-6-m col-3-s center">
                         <h2 data-aos="zoom-in-right" data-aos-duration="1000">
-                            <a href="https://albasoftware.netlify.app/albaneuralnetwork">
+                            <a href="https://www.credly.com/users/cameron-haynes.ad5d24e2/badges#credly">
                                  Cisco Academy: Operating Systems Basics.
                                  A Cirtification around how to use Linux and Windows for sys admin and cybersecurity
                             </a>
                         </h2>
                     </div>
-                    <a href="https://albasoftware.netlify.app/albaneuralnetwork" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
-                        <img id="ui" src={Cirt1} width="480" height="270" alt="Fiddlesticks music website" />
+                    <a href="https://www.credly.com/users/cameron-haynes.ad5d24e2/badges#credly" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <img id="ui" src={Cirt1} width="480" height="270" alt="Cirtification" />
                     </a>
                 </div>
             </section>
