@@ -243,6 +243,21 @@ ul.contact li a.social:hover img{
   padding-left: 9%;
 }
 
+nav ul.grid.nav-grid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+nav ul.grid.nav-grid li.link {
+  margin: 0;
+  flex: unset;
+}
+
+nav li.logo {
+  margin-right: auto;
+}
 
 /* for  the nav bar */
 @media (max-width: 600px) {

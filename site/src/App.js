@@ -19,6 +19,9 @@ function App() {
         <li id="nav-home" class="link col-1 col-1-m "><Link to="/">Home</Link></li>
         <li id="nav-about" class="link col-1 col-1-m "><Link to="/About">About</Link></li>
         <li id="nav-contact" class="link col-1 col-1-m "><Link to="/Contact">Contact</Link></li>
+        <li id="nav-article" class="link col-1 col-1-m "><a href="https://albasoftware-articles.netlify.app/">Articles</a></li>
+
+
       </ul>
     </nav> 
     
