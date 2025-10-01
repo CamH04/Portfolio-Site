@@ -22,7 +22,7 @@ export default function Contact (){
             <div class="col-5 hide-m"></div>
             <div class="col-4 col-3-m col-3-s" data-aos="zoom-in-up" data-aos-duration="1000" >
                 <p class="light">Send me an email</p>
-                <p class="big"><a href="mailto:wouterdebres@gmail.com">cameronahaynes04@gmail.com</a></p>
+                <p class="big"><a href="cameronahaynes04@gmail.com">cameronahaynes04@gmail.com</a></p>
             </div>
             <div class="col-5 col-3-m col-3-s" data-aos="zoom-in-up" data-aos-duration="1000" >
                 <p class="light">Connect on LinkedIn</p>

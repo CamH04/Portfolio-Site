@@ -16,6 +16,7 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
     const projref = useRef();
+    const cirtref = useRef();
 
     useEffect(() => {
         Aos.init();
@@ -23,23 +24,27 @@ export default function Home() {
 
     return (
         <section>
+            {/* Intro Section */}
             <div className="grid intro">
                 <div className="col-1 hide-m"></div>
                 <div className="col-11 col-6-m col-3-s center">
                     <div className="text-to-center" data-aos="fade-up" data-aos-duration="1500">
-                        <p className="name-text">Cameron Haynes - Programmer</p>
-                        <h1 className="name-text2">I like to code things</h1>
-                        <p className="text-to-center">
-                            <span onClick={() => {
-                                projref.current?.scrollIntoView({
-                                    behavior: 'smooth'
-                                });
-                            }}>Projects</span>
+                        <h2 className="name-text">Programmer</h2>
+                        <h1 className="namebig">Cameron Haynes</h1>
+                        <p className="name-text3">
+                            <span
+                                onClick={() => {
+                                    projref.current?.scrollIntoView({ behavior: 'smooth' });
+                                }}
+                            >
+                                Projects
+                            </span>
                         </p>
                     </div>
                 </div>
             </div>
 
+            {/* Buttons Section */}
             <section className="lower">
                 <div className="Buttons" data-aos="zoom-in-up" data-aos-duration="1000">
                     <a href="https://www.linkedin.com/in/cameron-haynes-778056233/">
@@ -60,9 +65,11 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* Projects Section */}
             <section ref={projref} id="project-section" className="projects">
                 <h1 className="name-text2 title-text" data-aos="fade-up" data-aos-duration="1500">Projects</h1>
 
+                {/* AlbaOS */}
                 <div className="project grid center gap">
                     <div className="col-3 col-6-m col-3-s center">
                         <h2 data-aos="zoom-in-right" data-aos-duration="1000">
@@ -74,6 +81,7 @@ export default function Home() {
                     </a>
                 </div>
 
+                {/* NHS App */}
                 <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://github.com/CamH04/Enterprise-Project-Group-9" className="col-8 col-6-m col-3-s project-image">
@@ -88,6 +96,7 @@ export default function Home() {
                         </div>
                     </div>
 
+                    {/* EDI App */}
                     <div className="project grid center gap">
                         <div className="col-3 col-6-m col-3-s center">
                             <h2 data-aos="zoom-in-right" data-aos-duration="1000">
@@ -102,6 +111,7 @@ export default function Home() {
                     </div>
                 </div>
 
+                {/* Alba Articles */}
                 <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://albasoftware-articles.netlify.app/" className="col-8 col-6-m col-3-s project-image">
@@ -117,6 +127,7 @@ export default function Home() {
                     </div>
                 </div>
 
+                {/* Fiddlesticks Music */}
                 <div className="project grid center gap">
                     <div className="col-3 col-6-m col-3-s center">
                         <h2 data-aos="zoom-in-right" data-aos-duration="1000">
@@ -130,8 +141,8 @@ export default function Home() {
                     </a>
                 </div>
 
-
-           <div data-aos="fade-up" data-aos-duration="2000">
+                {/* AlbaSoftware Hub */}
+                <div data-aos="fade-up" data-aos-duration="2000">
                     <div className="project grid center gap">
                         <a href="https://albasoftware.netlify.app/" className="col-8 col-6-m col-3-s project-image">
                             <img id="ui" src={apic} width="480" height="270" alt="Alba Software" data-aos="zoom-in-right" data-aos-duration="1000" />
@@ -146,6 +157,7 @@ export default function Home() {
                     </div>
                 </div>
 
+                {/* Neural Network */}
                 <div className="project grid center gap">
                     <div className="col-3 col-6-m col-3-s center">
                         <h2 data-aos="zoom-in-right" data-aos-duration="1000">
@@ -160,8 +172,8 @@ export default function Home() {
                 </div>
             </section>
 
-
-            <section ref={projref} id="cirt-section" className="cirt">
+            {/* Certifications Section */}
+            <section ref={cirtref} id="cirt-section" className="cirt">
                 <h1 className="name-text2 title-text" data-aos="fade-up" data-aos-duration="1500">Technical Certifications</h1>
 
                 <div className="project grid center gap">
@@ -169,18 +181,15 @@ export default function Home() {
                         <h2 data-aos="zoom-in-right" data-aos-duration="1000">
                             <a href="https://www.credly.com/users/cameron-haynes.ad5d24e2/badges#credly">
                                  Cisco Academy: Operating Systems Basics.
-                                 A Cirtification around how to use Linux and Windows for sys admin and cybersecurity
+                                 A Certification around how to use Linux and Windows for sys admin and cybersecurity
                             </a>
                         </h2>
                     </div>
                     <a href="https://www.credly.com/users/cameron-haynes.ad5d24e2/badges#credly" className="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG" data-aos="zoom-in-left" data-aos-duration="1000">
-                        <img id="ui" src={Cirt1} width="480" height="270" alt="Cirtification" />
+                        <img id="ui" src={Cirt1} width="480" height="270" alt="Certification" />
                     </a>
                 </div>
             </section>
-
-
-
         </section>
     );
 }

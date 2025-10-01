@@ -1,7 +1,6 @@
 *{
     font-family:Helvetica,Arial,sans-serif;
 }
-/* Buttons */
 .Buttons{
     position: relative;
     display: flex;
@@ -51,7 +50,9 @@ span{
   transform-origin: top left;
   transform: 0%;
 }
-
+.namebig{
+  margin-left: 7%;
+}
 .GOTOTHERIGHTIBEG{
   margin-left: 50%;
 }
@@ -65,9 +66,13 @@ span{
   padding-right: 9%;
   text-decoration: underline;
 }
-
+.name-text2{
+    padding-left: 9%;
+}
+.name-text3{
+    padding-left: 22%;
+}
 @media screen and (max-width: 600px) {
-  /* text*/
   .text-to-center{
     display: flex;
     flex-direction: column;
@@ -80,14 +85,12 @@ span{
   .name-text2{
     padding-left: 0%;
   }
-  /* buttons */ 
   .Buttons{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  /* projects*/
   .project{
     margin-bottom: 40%;
     display: flex;
