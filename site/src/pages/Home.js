@@ -9,6 +9,7 @@ import articles from './img/articles.png';
 import NHS from './img/NHS.png';
 import NN from './img/nn.png';
 import Cirt1 from './img/Cirt1.png';
+import volPic from './img/eg.png'
 
 import React, { useEffect, useRef } from 'react';
 import Aos from 'aos';
@@ -171,6 +172,22 @@ export default function Home() {
                     </a>
                 </div>
             </section>
+
+            {/* Volare Interpreter */}
+                <div data-aos="fade-up" data-aos-duration="2000">
+                    <div className="project grid center gap">
+                        <a href="https://github.com/CamH04/Volare/" className="col-8 col-6-m col-3-s project-image">
+                            <img id="ui" src={volPic} width="480" height="270" alt="Alba Software" data-aos="zoom-in-right" data-aos-duration="1000" />
+                        </a>
+                        <div className="col-3 col-6-m col-3-s center">
+                            <h2 data-aos="zoom-in-left" data-aos-duration="1000">
+                                <a href="https://github.com/CamH04/Volare/">
+                                    Volare: An interpreted stack based asm like language
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
 
             {/* Certifications Section */}
             <section ref={cirtref} id="cirt-section" className="cirt">
